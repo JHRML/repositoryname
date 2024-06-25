@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 1em;
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            margin: 1em auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>John Doe</h1>
+    <h2>Web Developer & Designer</h2>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am John Doe, a web developer with a passion for creating beautiful and functional websites. With a background in computer science and a keen eye for design, I aim to bring innovative solutions to every project I work on.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are some of my recent projects:</p>
+    <ul>
+        <li><strong>Project 1</strong> - <a href="https://example.com/project1">View Project</a></li>
+        <li><strong>Project 2</strong> - <a href="https://example.com/project2">View Project</a></li>
+        <li><strong>Project 3</strong> - <a href="https://example.com/project3">View Project</a></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me via email at <a href="mailto:john.doe@example.com">john.doe@example.com</a> or follow me on <a href="https://twitter.com/johndoe">Twitter</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 John Doe</p>
+</footer>
+
+</body>
+</html>
